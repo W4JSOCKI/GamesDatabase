@@ -1,0 +1,63 @@
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using Microsoft.AspNetCore.Http
+
+@model IPagedList<Game>
+
+@{
+    ViewData["Title"] = "Games";
+    string searchString = ViewBag.SearchString ?? "";
+    var pagedGames = Model; // lista gier przekazana z kontrolera do widoku jako IPagedList<Game>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Games</h1>
+</div>
+
+<div>
+    <form asp-controller="Home" asp-action="Games" method="get">
+        <div class="form-group">
+            <input type="text" name="searchString" class="form-control" value="@searchString" placeholder="Search game">
+            <button type="submit" class="btn btn-primary">Search</button>
+            <a asp-controller="Home" asp-action="AddGame" class="btn btn-success">Add game</a>
+        </div>
+        
+    </form>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Platform</th>
+            <th>Release Date</th>
+            <th>Genre</th>
+            <th>DeveloperID</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Tabela produktów -->
+        @foreach (var game in Model)
+        {
+            <tr>
+                <td>@game.Id</td>
+                <td>@game.Title</td>
+                <td>@game.Platform</td>
+                <td>@game.ReleaseYear</td>
+                <td>@game.Genre</td>
+                <td>@game.DeveloperId</td>
+                <td>
+                    <a asp-controller='Home' asp-action="Edit" asp-route-id="@game.Id">Edit</a>
+                    <a asp-controller='Home' asp-action="Delete" asp-route-id="@game.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="pagination">
+    @Html.PagedListPager(Model, page => Url.Action("Games", new { page, searchString }))
+</div>
+

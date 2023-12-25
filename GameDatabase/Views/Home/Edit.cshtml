@@ -1,0 +1,34 @@
+@model Game
+
+<h1>Edit game</h1>
+
+<form asp-controller="Home" asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Platform"></label>
+        <input asp-for="Platform" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReleaseYear"></label>
+        <input asp-for="ReleaseYear" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Genre"></label>
+        <input asp-for="Genre" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DeveloperId"></label>
+        <input asp-for="DeveloperId" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save changes</button>
+</form>

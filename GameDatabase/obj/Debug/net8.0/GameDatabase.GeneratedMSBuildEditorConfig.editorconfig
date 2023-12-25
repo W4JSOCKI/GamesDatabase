@@ -9,39 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GameDatabase
 build_property.RootNamespace = GameDatabase
-build_property.ProjectDir = C:\Programowanie\Studia\7 semestr\Programowanie_wizualne\GameDatabase\GamesDatabase\GameDatabase\
+build_property.ProjectDir = C:\Users\michi\OneDrive\Pulpit\WIZUALNE PROJEKT\GamesDatabase\GameDatabase\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Programowanie\Studia\7 semestr\Programowanie_wizualne\GameDatabase\GamesDatabase\GameDatabase
+build_property.MSBuildProjectDirectory = C:\Users\michi\OneDrive\Pulpit\WIZUALNE PROJEKT\GamesDatabase\GameDatabase
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Programowanie/Studia/7 semestr/Programowanie_wizualne/GameDatabase/GamesDatabase/GameDatabase/Views/Home/Index.cshtml]
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/Home/AddDeveloper.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGREZXZlbG9wZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/Home/AddGame.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRHYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/Home/Developers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXZlbG9wZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/Home/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/Home/EditDev.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0RGV2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/Home/Games.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHYW1lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programowanie/Studia/7 semestr/Programowanie_wizualne/GameDatabase/GamesDatabase/GameDatabase/Views/Home/Privacy.cshtml]
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programowanie/Studia/7 semestr/Programowanie_wizualne/GameDatabase/GamesDatabase/GameDatabase/Views/Shared/Error.cshtml]
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programowanie/Studia/7 semestr/Programowanie_wizualne/GameDatabase/GamesDatabase/GameDatabase/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programowanie/Studia/7 semestr/Programowanie_wizualne/GameDatabase/GamesDatabase/GameDatabase/Views/_ViewImports.cshtml]
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programowanie/Studia/7 semestr/Programowanie_wizualne/GameDatabase/GamesDatabase/GameDatabase/Views/_ViewStart.cshtml]
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programowanie/Studia/7 semestr/Programowanie_wizualne/GameDatabase/GamesDatabase/GameDatabase/Views/Shared/_Layout.cshtml]
+[C:/Users/michi/OneDrive/Pulpit/WIZUALNE PROJEKT/GamesDatabase/GameDatabase/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dwqbpzq5ru

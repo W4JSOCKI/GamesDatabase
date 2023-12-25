@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programowanie\\Studia\\7 semestr\\Programowanie_wizualne\\GameDatabase\\GamesDatabase\\GameDatabase\\GameDatabase.csproj": {}
+    "C:\\Users\\michi\\OneDrive\\Pulpit\\WIZUALNE PROJEKT\\GamesDatabase\\GameDatabase\\GameDatabase.csproj": {}
   },
   "projects": {
-    "C:\\Programowanie\\Studia\\7 semestr\\Programowanie_wizualne\\GameDatabase\\GamesDatabase\\GameDatabase\\GameDatabase.csproj": {
+    "C:\\Users\\michi\\OneDrive\\Pulpit\\WIZUALNE PROJEKT\\GamesDatabase\\GameDatabase\\GameDatabase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programowanie\\Studia\\7 semestr\\Programowanie_wizualne\\GameDatabase\\GamesDatabase\\GameDatabase\\GameDatabase.csproj",
+        "projectUniqueName": "C:\\Users\\michi\\OneDrive\\Pulpit\\WIZUALNE PROJEKT\\GamesDatabase\\GameDatabase\\GameDatabase.csproj",
         "projectName": "GameDatabase",
-        "projectPath": "C:\\Programowanie\\Studia\\7 semestr\\Programowanie_wizualne\\GameDatabase\\GamesDatabase\\GameDatabase\\GameDatabase.csproj",
-        "packagesPath": "C:\\Users\\patry\\.nuget\\packages\\",
-        "outputPath": "C:\\Programowanie\\Studia\\7 semestr\\Programowanie_wizualne\\GameDatabase\\GamesDatabase\\GameDatabase\\obj\\",
+        "projectPath": "C:\\Users\\michi\\OneDrive\\Pulpit\\WIZUALNE PROJEKT\\GamesDatabase\\GameDatabase\\GameDatabase.csproj",
+        "packagesPath": "C:\\Users\\michi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\michi\\OneDrive\\Pulpit\\WIZUALNE PROJEKT\\GamesDatabase\\GameDatabase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\patry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\michi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +53,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.4.7, )"
             }
           },
           "imports": [

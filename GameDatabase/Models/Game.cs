@@ -9,5 +9,6 @@ namespace GameDatabase.Models;
         public int? ReleaseYear { get; set; }
         public string? Genre { get; set; }
         public string? Developer { get; set; }
-       
+        public int? DeveloperId { get; set; }
+    
     }

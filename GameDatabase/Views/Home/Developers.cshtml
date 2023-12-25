@@ -1,0 +1,56 @@
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using Microsoft.AspNetCore.Http
+
+@model IPagedList<Developer>
+
+@{
+    ViewData["Title"] = "Developers";
+    string searchString = ViewBag.SearchString ?? "";
+    var pagedDevelopers = Model;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Developers</h1>
+</div>
+
+<div>
+    <form asp-controller="Home" asp-action="Developers" method="get">
+        <div class="form-group">
+            <input type="text" name="searchString" class="form-control" value="@searchString" placeholder="Wyszukaj Developera">
+            <button type="submit" class="btn btn-primary">Search</button>
+            <a asp-controller="Home" asp-action="AddDeveloper" class="btn btn-success">Add developer</a>
+        </div>
+        
+    </form>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var developer in Model)
+        {
+            <tr>
+                <td>@developer.Id</td>
+                <td>@developer.Name</td>
+                <td>@developer.Country</td>
+                <td>
+                    <a asp-controller='Home' asp-action="EditDev" asp-route-id="@developer.Id">Edit</a>
+                    <a asp-controller='Home' asp-action="DeleteDev" asp-route-id="@developer.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="pagination">
+    @Html.PagedListPager(Model, page => Url.Action("Developers", new { page, searchString }))
+</div>
+
